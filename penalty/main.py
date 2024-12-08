@@ -3,6 +3,7 @@ from auth import login
 from employee import start_work, end_work, view_penalties
 from menu import auth_menu, admin_menu, employee_menu
 from queries import create_tables, logout_query
+from utils import calculate_penalty, check_employee_started
 
 
 def show_auth_menu():

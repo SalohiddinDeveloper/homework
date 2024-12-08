@@ -44,3 +44,6 @@ def calculate_total_penalties():
         total += employee['total_penalty']
     return total
 
+def total_penalties():
+    total = calculate_total_penalties()
+    print(f"Total penalties for all employees: {total}")
